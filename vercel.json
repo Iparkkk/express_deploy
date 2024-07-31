@@ -1,8 +1,8 @@
 {
   "version": 2,
+  "buildCommand": "next build",
   "build": {
-    "src": "index.js",
-    "use": "@now/node"
+    "src": "index.js"
   },
   "routes": {
     "src": "/(.*)",
