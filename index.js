@@ -8,11 +8,11 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-  return res.send("Hello Express");
+  res.send("Hello Express");
 });
 
 app.get("/vercel", (req, res) => {
-  return res.send("Deploy on Vercel");
+  res.send("Deploy on Vercel");
 });
 
 module.exports = app;
